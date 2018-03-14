@@ -1,0 +1,35 @@
+{
+  "name": "fix-image-rotation",
+  "version": "1.0.0",
+  "description": "Rotates the given image based on the EXIF values",
+  "main": "index.js",
+  "scripts": {
+    "test": "rspec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manoj-makkuboy/fix-image-rotation.git"
+  },
+  "keywords": [
+    "orientation",
+    "exif",
+    "react",
+    "image",
+    "fix",
+    "rotate",
+    "rotation",
+    "dropzone",
+    "photo",
+    "picture",
+    "metadata"
+  ],
+  "author": "Manoj Mohan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manoj-makkuboy/fix-image-rotation/issues"
+  },
+  "homepage": "https://github.com/manoj-makkuboy/fix-image-rotation#readme",
+  "dependencies": {
+    "blueimp-load-image": "^2.18.0"
+  }
+}
