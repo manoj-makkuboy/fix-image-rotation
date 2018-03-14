@@ -12,3 +12,5 @@ npm package to rotate the image based on EXIF values stored in the image.
       return blobOfArray
     }
 
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
