@@ -6,5 +6,6 @@ npm package to rotate the image based on EXIF values stored in the image.
 
 ## Usage
 > let fixRotation = require('fix-image-rotation')
+
 > await fixRotation.fixRotation(accepted_files)
 
