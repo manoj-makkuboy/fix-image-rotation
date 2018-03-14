@@ -4,7 +4,7 @@
   "description": "Rotates the given image based on the EXIF values",
   "main": "index.js",
   "scripts": {
-    "test": "rspec"
+    "test": ""
   },
   "repository": {
     "type": "git",
