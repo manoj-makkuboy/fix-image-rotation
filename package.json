@@ -2,9 +2,10 @@
   "name": "fix-image-rotation",
   "version": "1.0.0",
   "description": "Rotates the given image based on the EXIF values",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": ""
+    "build": "babel index.js -d lib/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -31,5 +32,9 @@
   "homepage": "https://github.com/manoj-makkuboy/fix-image-rotation#readme",
   "dependencies": {
     "blueimp-load-image": "^2.18.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2"
   }
 }
